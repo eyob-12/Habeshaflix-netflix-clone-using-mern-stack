@@ -1,7 +1,7 @@
 import axios from "axios";
 import queryString from "query-string";
 
-const baseURL = "http://localhost:5000/api/v1/";
+const baseURL = "https://habeshaflix-netflix-clone-using-mern-stack.vercel.app/api/v1/";
 
 const publicClient = axios.create({
   baseURL,

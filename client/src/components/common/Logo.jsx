@@ -7,13 +7,13 @@ const Logo = () => {
 
   return (
     <Typography variant="h6" fontWeight="bold" fontSize="1.7rem">
-      <Link to="/" style={{ textDecoration: 'none' }}>
+      <Link to="/" style={{ textDecoration: 'none', gap: '8px' }}>
         <img
-          src="https://i.pinimg.com/736x/6f/af/f7/6faff7affa40573f16d32b284deb20cb.jpg"
+          src="https://images.squarespace-cdn.com/content/v1/59f0a6e9f09ca487886b21e2/1527236501791-PL8UQJXN2C3M3GIMCX7R/Artboard+Landscap.png"
           alt="HabeshaFlix"
           style={{ height: '60px', borderRadius: '50%', verticalAlign: 'middle' }}
         />
-        <span style={{ color: theme.palette.primary.main }}>HabeshaFlix</span>
+        <span style={{ color: theme.palette.primary.main }}>ሐበሻFlix</span>
       </Link>
     </Typography>
   );
